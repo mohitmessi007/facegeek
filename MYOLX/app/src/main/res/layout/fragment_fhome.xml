@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mohit.myolx.fhome">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hola"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0sp"
+            android:layout_height="40sp"
+            android:layout_weight="1"
+            android:id="@+id/gal"
+            android:background="#d1d1d1"
+            app:layout_heightPercent="10%"
+            app:layout_widthPercent="50%"
+            android:src="@drawable/ic_menu_camera"
+            />
+
+        <ImageView
+            android:layout_width="0sp"
+            android:layout_height="40sp"
+            app:layout_heightPercent="10%"
+            android:layout_weight="1"
+            android:id="@+id/stat"
+            app:layout_widthPercent="50%"
+            android:src="@drawable/status"/>
+    </LinearLayout>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/hola"
+        android:layout_marginBottom="10sp"
+        android:cacheColorHint="#000000"
+        android:dividerHeight="15sp"
+        android:paddingTop="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginLeft="10sp"
+        android:divider="#d1d1d1"
+        android:id="@+id/list5" />
+</RelativeLayout>

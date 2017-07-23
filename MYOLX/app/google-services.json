@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "182402672963",
+    "firebase_url": "https://mohit-28a60.firebaseio.com",
+    "project_id": "mohit-28a60",
+    "storage_bucket": "mohit-28a60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182402672963:android:652717d88b7c6aa4",
+        "android_client_info": {
+          "package_name": "com.example.mohit.myolx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182402672963-944am6q66hcs8ljrfh6uh3g75glg6i7i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mohit.myolx",
+            "certificate_hash": "1955b6a8c92873160f2624cb04e1c6bd87ab2cec"
+          }
+        },
+        {
+          "client_id": "182402672963-kfpbv75ohmeievcprmph3rkv3g0uialm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZekl3K3T66NFB-4kVz3z6REZbDpGEHd8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182402672963-kfpbv75ohmeievcprmph3rkv3g0uialm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

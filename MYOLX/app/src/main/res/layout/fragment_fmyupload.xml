@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mohit.myolx.fmyupload">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10sp"
+        android:cacheColorHint="#000000"
+        android:dividerHeight="15sp"
+        android:paddingTop="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_marginLeft="10sp"
+        android:divider="#d1d1d1"
+        android:id="@+id/list4"/>
+</android.support.percent.PercentRelativeLayout>
+
+
+
+
+
+
+
+
+

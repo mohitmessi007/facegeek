@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mohit.myolx.statusyahanhai">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/whats_s_on_your_mind"
+            android:layout_marginTop="20sp"
+            android:paddingBottom="40sp"
+            android:inputType="textMultiLine"
+            android:id="@+id/status1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/statusbutton"
+            android:text="@string/upload_status"
+            android:layout_below="@id/status1"/>
+    </RelativeLayout>
+
+</RelativeLayout>

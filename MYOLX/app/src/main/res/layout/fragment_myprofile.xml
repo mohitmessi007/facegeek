@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="com.example.mohit.myolx.myprofile">
+
+<android.support.percent.PercentRelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <ImageView
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:id="@+id/timeline"
+        android:contentDescription="@string/browse_from_gallery"
+        android:background="@color/black"
+        app:layout_heightPercent="33%"
+        android:scaleType="fitXY"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:background="#f0f0f0"
+        android:id="@+id/profilepic"
+        android:contentDescription="@string/browse_from_gallery"
+        app:layout_heightPercent="22%"
+        app:layout_widthPercent="30%"
+        android:scaleType="fitXY"
+        android:layout_marginTop="-60sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/timeline"/>
+
+
+    <TextView
+        android:layout_below="@id/profilepic"
+        android:layout_marginTop="10sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textScaleX="1.2"
+        android:text="@string/this_is_my_name"
+        android:gravity="center_horizontal"
+        android:id="@+id/myname"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/school"
+        android:layout_below="@+id/myname"
+        android:paddingTop="10sp"
+        android:textSize="18sp"
+        android:textColor="@color/bluex"
+        android:layout_marginStart="10sp"
+        android:layout_marginLeft="10sp"
+        android:text="@string/this_is_my_school"
+        />
+
+    <TextView
+        android:id="@+id/college"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/school"
+        android:layout_marginLeft="10sp"
+        android:layout_marginStart="10sp"
+        android:paddingTop="10sp"
+        android:text="@string/this_is_my_college"
+        android:textColor="@color/bluex"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/state"
+        android:layout_below="@id/college"
+        android:paddingTop="10sp"
+        android:textColor="#0bb5ff"
+        android:textSize="18sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginLeft="10sp"
+        android:text="@string/this_is_my_state"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/country"
+        android:layout_below="@id/state"
+        android:paddingTop="10sp"
+        android:textSize="18sp"
+        android:layout_marginStart="10sp"
+        android:textColor="#0bb5ff"
+        android:layout_marginLeft="10sp"
+        android:text="@string/country"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dob"
+        android:paddingTop="10sp"
+        android:layout_below="@+id/country"
+        android:textSize="18sp"
+        android:textColor="#0bb5ff"
+        android:layout_marginStart="10sp"
+        android:layout_marginLeft="10sp"
+        android:text="@string/birthday"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittimeline"
+        android:layout_below="@+id/dob"
+        android:layout_marginTop="10sp"
+        android:background="@color/black"
+        android:text="@string/edit_your_timeline_pic"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editpicture"
+        android:layout_below="@+id/edittimeline"
+        android:layout_marginTop="10sp"
+        android:background="@color/black"
+        android:text="@string/edit_your_profile_pic"
+        android:gravity="center"/>
+
+</android.support.percent.PercentRelativeLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/upload"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/upload_an_image" />
+        <item
+            android:id="@+id/notification"
+            android:icon="@drawable/tw__btn_composer_tweet"
+            android:title="@string/notification" />
+        <item
+            android:id="@+id/myupload"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/my_upload" />
+        <item
+            android:id="@+id/myprofile"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/my_profile" />
+
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/group_chat" />
+        <item
+            android:id="@+id/status"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/status" />
+
+        <item
+            android:id="@+id/users"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/users" />
+    </group>
+</menu>
