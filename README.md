@@ -26,7 +26,7 @@ everyone else around with photo's and status. People from all over the world can
 app. From children to adults anyone who loves to share moments or status are one step away from
 getting close.
 
-FEATURE•
+FEATURE
 -LOGIN AND VERIFICATION
 -PASSWORD RECOVERY
 -UPLOAD PICTURES FROM GALLERY
